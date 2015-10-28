@@ -1,0 +1,16 @@
+express -e todo
+cd todo
+npm init
+express install --save
+npm install --save
+touch .bowerrc
+bower install bootstrap --save
+bower init
+bower install angular   --save
+touch .gitignore
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/zhuhuijun/todo.git
+git push -u origin master
+doskey /history >>cmd.log
